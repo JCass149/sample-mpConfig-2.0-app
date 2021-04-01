@@ -76,7 +76,7 @@ public class MPConfig20ExamplesResource {
     String serverPort;
 
     /**
-     * Get port. Could be 9080 (default "phase") or 9081 (testing "phase") or 9082 (testing "phase")
+     * Get port. Could be 9080 (default "phase") or 9081 (testing "phase") or 9082 (production "phase")
      */
     @GET
     @Path("/getPort")
@@ -135,14 +135,14 @@ public class MPConfig20ExamplesResource {
      */
 
     @Inject
-    @ConfigProperty(name = "server.foo.endpoint")
-    String serverFoo;
+    @ConfigProperty(name = "server.endpoint")
+    String serverEndpoint;
 
     @GET
     @Path("/getPropertyExpression")
     @Tag(name = "4. PropertyExpression")
     public String getPropertyExpression() {
-        return serverFoo;
+        return serverEndpoint;
     }
 
     /*

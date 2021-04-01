@@ -1,5 +1,5 @@
 # Example mpConfig-2.0 app
-An example Open Liberty application using the new features in MicroProfile Config 2.0
+An example Open Liberty application using the new features in MicroProfile Config 2.0, used in: https://mediacenter.ibm.com/media/t/1_8sp0zqk9
 
 To start the application in [dev mode](https://openliberty.io/docs/21.0.0.2/development-mode.html), run:
 `mvn liberty:dev`

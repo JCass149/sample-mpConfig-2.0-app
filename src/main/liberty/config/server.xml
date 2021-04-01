@@ -15,8 +15,11 @@
 
         <feature>microProfile-4.0</feature>
 
-        <!-- To enable only the MP Config feature, use -->
+        <!-- To enable only the MP Config feature, use: -->
         <!-- <feature>mpConfig-2.0</feature> -->
+
+        <!-- To enable only the MP OpenAPI feature, use: -->
+        <!-- <feature>mpOpenAPI-2.0</feature> -->
         
         <!-- To enable the CDI functionality, use: -->
         <!-- <feature>cdi-2.0</feature> -->
